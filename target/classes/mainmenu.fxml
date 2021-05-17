@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="board" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardgame.BoardGameController">
+   <children>
+      <Label layoutX="147.0" layoutY="64.0" prefHeight="133.0" prefWidth="504.0" text="Move the Knight">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button layoutX="87.0" layoutY="283.0" mnemonicParsing="false" text="Let the game begin">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Button>
+      <Label layoutX="69.0" layoutY="486.0" text="Label" />
+      <Label layoutX="694.0" layoutY="486.0" text="Label" />
+   </children>
+</Pane>
